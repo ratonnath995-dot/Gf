@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>টাকা আয় করুন - বিজ্ঞাপন দেখুন</title>
-    <script src='//libtl.com/sdk.js' data-zone='9472189' data-sdk='show_9472189'></script>
+    <script src='//libtl.com/sdk.js' data-zone='10372236' data-sdk='show_10372236'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
@@ -726,8 +726,8 @@
         const REFERRAL_BONUS = 5.00; // রেফারেল বোনাস ৫ টাকা
         
         // Telegram Bot Configuration - এখানে আপনার বটের তথ্য দিন
-        const BOT_TOKEN = "7987524748:AAHmv52bPWjGpWLzvexVBGZ6P5vACjInNzE"; // আপনার বট টোকেন
-        const ADMIN_CHAT_ID = "7011834885"; // আপনার টেলিগ্রাম চ্যাট আইডি
+        const BOT_TOKEN = "7968424653:AAEM8Xn3ls5kDJPC-Shux6ePDJrsn4PBlis"; // আপনার বট টোকেন
+        const ADMIN_CHAT_ID = "8321324531"; // আপনার টেলিগ্রাম চ্যাট আইডি
         
         // Variables
         let watchedAdsCount = 0;
@@ -847,7 +847,7 @@
 
         // Check if Monetag ad is ready
         function checkAdReady() {
-            if (typeof window.show_9472189 !== 'function') {
+            if (typeof window.show_10372236 !== 'function') {
                 document.getElementById('ad-status').innerHTML = '<i class="fas fa-spinner fa-spin"></i> বিজ্ঞাপন সিস্টেম লোড হচ্ছে...';
                 setTimeout(checkAdReady, 1000);
             } else {
@@ -903,7 +903,7 @@
         function watchAd() {
             if (isAdLoading) return;
             
-            if (typeof window.show_9472189 !== 'function') {
+            if (typeof window.show_10372236 !== 'function') {
                 document.getElementById('ad-status').innerHTML = '<i class="fas fa-exclamation-circle"></i> বিজ্ঞাপন সিস্টেম প্রস্তুত নয়। দয়া করে অপেক্ষা করুন...';
                 return;
             }
@@ -1156,3 +1156,4 @@
     </script>
 </body>
 </html>
+
